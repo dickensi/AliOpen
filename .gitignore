@@ -1,7 +1,61 @@
 target
+.svn
+
+HELP.md
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
 .project
 .settings
-.classpath
-*.iml
+.springBeans
+.sts4-cache
+pom.xml.versionsBackup
+
+### IntelliJ IDEA ###
 .idea
-.svn
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### jpb ###
+.jpb/
+
+### log files ###
+/logs/
+.DS_Store
+/trantor2-starter.log*
+*.log
+erp-app.log*
+/.run/
+.run/
+*.gz
+.flattened-pom.xml
+
+### Meta Checksum ###
+.checksum.txt
+.checksum.list.txt
+
+### Test Cache Files ###
+dl-cache-test
+
+### Vim & Emacs ###
+TAGS
